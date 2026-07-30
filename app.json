@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "أتمم",
+    "slug": "atmm",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "atmm",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.atmm.app"
+    },
+    "android": {
+      "package": "com.atmm.app"
+    },
+    "plugins": [
+      "expo-sqlite",
+      [
+        "expo-notifications",
+        {
+          "sounds": ["default"]
+        }
+      ],
+      "expo-av",
+      "expo-image-picker",
+      "expo-local-authentication",
+      "expo-document-picker"
+    ]
+  }
+}
